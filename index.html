@@ -31,7 +31,7 @@
     (function () {
       var t = null;
       try { t = localStorage.getItem('theme'); } catch (e) {}
-      if (!t) t = window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+      if (t !== 'light' && t !== 'dark') t = 'dark';   // dark by default; visitor's own choice is remembered
       document.documentElement.setAttribute('data-theme', t);
     })();
   </script>
