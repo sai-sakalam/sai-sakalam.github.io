@@ -961,3 +961,17 @@ button.btn-ghost { background: transparent; }
 .explorer-cta span span { display: block; font-size: 13px; color: var(--text-dim); margin-top: 2px; }
 @media (max-width: 1100px) { .expertise-grid { grid-template-columns: repeat(2, 1fr); } }
 @media (max-width: 640px)  { .expertise-grid { grid-template-columns: 1fr; } }
+
+/* ── Expanding-into strip ─────────────────────────────────────── */
+.expanding { margin-top: 36px; display: flex; flex-wrap: wrap; align-items: center; gap: 14px 18px; }
+.expanding-label { font-family: var(--mono); font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--text-faint); }
+
+/* ── Compact single-column timeline ───────────────────────────── */
+.timeline { max-width: 760px; }
+.timeline::before { left: 20px; }
+.tl-item { margin-bottom: 16px; }
+.tl-right, .tl-left { justify-content: flex-start; }
+.tl-right .tl-card, .tl-left .tl-card { margin: 0 0 0 52px; max-width: 100%; }
+.tl-dot { left: 20px; }
+.tl-card { padding: 16px 20px; }
+.tl-card p { margin-bottom: 8px; }
