@@ -186,6 +186,7 @@ document.getElementById('theme-toggle')?.addEventListener('click', toggleTheme);
     { g: 'Jump to', ic: '🧭', t: 'Journey / timeline', k: 'experience career timeline',  run: go('journey') },
     { g: 'Jump to', ic: '✉️', t: 'Connect',            k: 'contact connect',            run: go('connect') },
     { g: 'Open',    ic: '🎓', t: 'Read T-RKG on IEEE Xplore', k: 'paper ieee xplore doi read', h: '↗', run: open('https://ieeexplore.ieee.org/document/11675805') },
+    { g: 'Open',    ic: '🔍', t: 'T-RKG interactive Explorer', k: 'explorer demo trkg interactive try paper', h: '↗', run: open('https://sai-sakalam.github.io/T-RKG/') },
     { g: 'Open',    ic: '🧪', t: 'T-RKG code & experiments', k: 'code repo github trkg reproduce', h: '↗', run: open('https://github.com/kpulagam/T-RKG') },
     { g: 'Open',    ic: '🍴', t: 'My fork of T-RKG',    k: 'fork code repo github trkg sai', h: '↗', run: open('https://github.com/sai-sakalam/T-RKG') },
     { g: 'Open',    ic: '📦', t: 'pyfirstaid on PyPI',  k: 'pypi pip package',            h: '↗', run: open('https://pypi.org/project/pyfirstaid/') },
